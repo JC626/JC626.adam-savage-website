@@ -1,0 +1,38 @@
+body{
+	/*background-color:#083484;*/
+	/*background-color: #FF740D;*/
+	background-color: #FF740D;
+}
+
+a:link{
+	/*Remove underline on links*/
+	text-decoration:none;
+	
+}
+
+#container{
+	/*background-color: #FFAA0D;*/
+	background-color:  #FFFA6B;
+	/*background-color: #FF9900;*/
+	
+	padding:20px;
+	margin-left:auto;
+	margin-right:auto;
+	width: 1000px;
+}
+
+#menu h2{
+	display: inline;
+	padding: 20px;
+}
+
+.banner{
+	display: block;
+	margin:auto;
+	width:1000px;
+	height: 500px;
+
+}
+
+
+

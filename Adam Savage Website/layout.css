@@ -1,0 +1,116 @@
+body{
+	background-color: #FF740D;
+	font-family: "Trebuchet MS", sans-serif
+}
+
+a:link{
+	/*Remove underline on links*/
+	text-decoration:none;
+}
+
+a:visited{
+      color: inherit;
+}
+
+#container{
+	background-color:  #FFFA6B;
+	padding:20px;
+	margin-left:auto;
+	margin-right:auto;
+	width: 1000px;
+}
+
+/*Navigation bar*/
+#menu{
+    padding: 10px;
+    background-color:#FF2C26;
+    margin-bottom:20px;
+}
+#menu h2{
+	display: inline;
+	padding: 20px;
+
+}
+#menu a{
+    color: white;
+}
+#menu a:hover{
+      color:black;
+}
+/*Social media bar*/
+#media{
+    float:right;
+    background-color:#FF2C26;
+    border: 4px solid;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 280px;
+    height: auto;
+    padding:10px;
+}
+
+#media li{
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    font-style: italic;
+}
+#media a:hover{
+	color:black;
+}
+
+
+.banner{
+	display: block;
+	margin:auto;
+	width:1000px;
+	height:500px;
+
+}
+
+.links{
+	font-style:italic;
+	font-weight: bold;
+}
+table{
+	border-collapse: collapse;
+}
+th,td{
+	border: 4px black solid;
+}
+
+/*Upcoming events table*/
+
+.upcoming{
+	font-size: 25px;
+	line-height: 50px;
+}
+
+table.events{
+	background-color:#98E5E5;
+	margin-right: 50px;
+}
+table.events td{
+	padding-left: 20px;
+}
+
+/*Gallery table*/
+table.gallery{
+	table-layout: fixed;
+}
+table.gallery td{
+	width: 33.3%	
+}
+
+.images{
+	display:block;
+	max-width: 100%;
+	height:400px;
+	width: 100%;
+  
+}
+
+
+
+
